@@ -7,7 +7,7 @@ print(f'Hello {name}')
 print(f'You are {age} years old')
 '''
 
-# Mad Libs
+# Exercise: Mad Libs
 '''
 adjective1 = input('Enter your adjective: ')
 noun = input('Enter your noun: ')
@@ -21,7 +21,7 @@ print(f'{noun} was {adjective2} and {verb}ing')
 print(f'I was {adjective3}')
 '''
 
-# Area/Volume Cale
+# Exercise: Area/Volume Cale
 '''
 length = float(input('Enter the length of a rectangle: '))
 width = float(input('Enter the width of a rectangle: '))
@@ -32,7 +32,7 @@ area = length * width * height
 print(f'The are is: {area}cm^3') # cm^2 for area, cm^3 for volume
 '''
 
-# Shopping cart
+# Exercise: Shopping Cart
 item = input('What item would you like to buy? ')
 price = float(input('What is the price? '))
 quantity = int(input('How many would you like? '))
