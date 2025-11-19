@@ -42,6 +42,6 @@ def shipping_label(*args, **kwargs):
         print(f'{kwargs.get('street')}')
     print(f'{kwargs.get('city')} {kwargs.get('state')} {kwargs.get('zip')}')
 
-shipping_label('Dr.', 'Spongebob',' Squarepants', 'III',
+shipping_label('Dr.', 'Spongebob','Squarepants', 'III',
                street='123 Fake St.', pobox='PO box #1001', city='Detroit',
                state='MI', zip='54321')
